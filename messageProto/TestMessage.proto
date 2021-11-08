@@ -1,0 +1,9 @@
+syntax = "proto3";
+package messageProto;
+
+option go_package = "github.com/skmajiProjects/TestDependency-Message/messageGo";
+
+message test_message{
+    string message_id = 5;
+    string message_name = 6;
+}
